@@ -3,5 +3,17 @@
  }
 
  .back-css {
-    background-image:url("/img/bill.png");
+    background-image:url("/img/back.png");
+}
+
+.mozi-css {
+    color: white;
+    font-family: "Times New Roman";
+    
+}
+
+.mozi-css:hover{
+    color: rgb(221, 221, 159);
+    transition: all 0.1s;
+    transform: translate(3px,0);
 }

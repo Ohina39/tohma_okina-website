@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="main3.css">
     <script type="text/javascript" src='./main.js' defer></script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    
+
     <title>初めてのHTMLページ</title>
 </head>
 
@@ -19,17 +25,20 @@
         アザレアの心臓
     </h1> 
 
-    <p>▸Top</p>
+    
+    <a data-fancybox data-src="img/gazou1.png"  data-caption="アザレアの心臓 (Full Album)" >
+        <p class="mozi-css" onclick="myfunc()">▸Top</p> 
+    </a>
 
-    <p>▸News</p>
+    <p class="mozi-css" onclick="myfunc1()">▸News</p>
+    
+    <p class="mozi-css" onclick="myfunc2()">▸Profile</p>
 
-    <p>▸Profile</p>
+    <p class="mozi-css" onclick="myfunc3()">▸People</p>
 
-    <p>▸People</p>
+    <p class="mozi-css" onclick="myfunc4()">▸Music</p>
 
-    <p>▸Music</p>
-
-    <p>▸Blog</p>
+    <p class="mozi-css" onclick="myfunc5()">▸Blog</p>
 
 
 
