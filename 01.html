@@ -19,40 +19,79 @@
 
 
 <body class="back-css">
+    <div class="main">
 
-    <h1 class="tytle-css">
-        2013.4.3 tohma 1st Album<br>
-        アザレアの心臓
-    </h1> 
+        <!-- 左半分のボタンなどの操作画面 -->
+        <div class="contentA">
+            <h1 class="tytle-css">
+                <img src="img/gazou6.png" width="290" height="190" />
+                <!-- 2013.4.3 tohma 1st Album<br> -->
+                <!-- アザレアの心臓<br> -->
+            </h1> 
 
+            
+            <a data-fancybox data-src="img/gazou4.png"  data-caption="アザレアの心臓 (Full Album)" >
+                <p class="mozi-css" onclick="myfunc()">▸Top</p> 
+            </a>
+
+            <p class="mozi-css" onclick="myfunc1()">▸News</p>
     
-    <a data-fancybox data-src="img/gazou1.png"  data-caption="アザレアの心臓 (Full Album)" >
-        <p class="mozi-css" onclick="myfunc()">▸Top</p> 
-    </a>
+            <p class="mozi-css" onclick="myfunc2()">▸Profile</p>
 
-    <p class="mozi-css" onclick="myfunc1()">▸News</p>
-    
-    <p class="mozi-css" onclick="myfunc2()">▸Profile</p>
+            <p class="mozi-css" onclick="myfunc3()">▸People</p>
 
-    <p class="mozi-css" onclick="myfunc3()">▸People</p>
+            <p class="mozi-css" onclick="myfunc4()">▸Music</p>
 
-    <p class="mozi-css" onclick="myfunc4()">▸Music</p>
-
-    <p class="mozi-css" onclick="myfunc5()">▸Blog</p>
+            <p class="mozi-css" onclick="myfunc5()">▸Blog</p>
 
 
 
-    <div id="canvas"></div>
-    <button onclick="drawCanvas()">購入する</button>
-    <br>
+            <div id="canvas"></div>
+            <button onclick="drawCanvas()">購入する</button>
+            <br>
 
-    <a href="https://www.youtube.com/watch?v=Oh9E4Gumk60&t=434s">トーマ - アザレアの心臓</a>
-    <br>
+            <a href="https://www.youtube.com/watch?v=Oh9E4Gumk60&t=434s">トーマ - アザレアの心臓</a>
+            <br>
 
-    <a href="https://www.youtube.com/watch?v=g6iZejHDFKQ">Tohma - Eureka (Full Album)</a>
-    <br>
+            <a href="https://www.youtube.com/watch?v=g6iZejHDFKQ">Tohma - Eureka (Full Album)</a>
+            <br>
 
-    
+            <p class="CDue-css">2013.4.3 1st full album</p>
+
+
+            <div class="gazou-css">
+                <img src="img/gazou4.png" width="180" height="180" />
+            </div>
+
+        </div>
+        
+
+        <!-- 右半分の操作画面 -->
+        <div class="contentB">
+
+            <div class="bgm-css">
+                <audio autoplay controls loop>
+                    <source src="bgm/Azarea.mp3">
+                </audio>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+    <footer>footer</footer>
+
+
+
+
 </body>
 
 </html>

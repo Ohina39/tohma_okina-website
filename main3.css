@@ -17,3 +17,46 @@
     transition: all 0.1s;
     transform: translate(3px,0);
 }
+
+.CDue-css {
+    color: white;
+    font-family: "Times New Roman";
+    
+}
+
+.bgm-css {
+    text-align:right;
+}
+
+
+/*画面を左のボタンなどの画面と右のポップアップを表示する画面に2分割する(実際の画面では見えない)*/
+.main{
+    display: flex;
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+  }
+
+
+/*.contentA{background: #b3d874;}*/
+/*.contentB{background: #6fb5ff;}*/
+footer{background: #ffce5b;}
+
+
+.contentA{
+    width: 20%;
+}
+
+.contentB{
+    width: 80%;
+}
+
+footer {
+    width: 100%;
+}
+
+
+
+

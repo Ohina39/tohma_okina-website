@@ -7,8 +7,9 @@ const drawCanvas = () => {
     console.log("a");
 }
 
-const myfunc = () => {
+const myfunc1 = () => {
 
-    
+
     console.log("a");
 }
+
