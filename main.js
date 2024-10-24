@@ -9,7 +9,36 @@ const drawCanvas = () => {
 
 const myfunc1 = () => {
 
-
     console.log("a");
+}
+
+
+
+
+function togglePopup1() {
+    var popup = document.getElementById("imgPopup1");
+    if (popup.style.display === 'none') {
+        popup.style.display = 'block';
+    } else {
+        popup.style.display = 'none';
+    }
+  }
+
+
+
+function OnLinkClick() {
+    var linkelem = document.getElementById("PopupLink1");
+    var clientRect = linkelem.getBoundingClientRect();
+
+    var elem = document.getElementById("PopupFrame1");
+    elem.style.visibility = "visible"
+
+    elem.style.left = "300px";
+    elem.style.top = "10px";;
+}
+
+function OnCloseLinkClick() {
+    var elem = document.getElementById("PopupFrame1");
+    elem.style.visibility = "hidden";
 }
 

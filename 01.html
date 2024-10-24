@@ -11,11 +11,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
-    
 
     <title>初めてのHTMLページ</title>
 </head>
-
 
 
 <body class="back-css">
@@ -34,8 +32,16 @@
                 <p class="mozi-css" onclick="myfunc()">▸Top</p> 
             </a>
 
-            <p class="mozi-css" onclick="myfunc1()">▸News</p>
+            
+            <div class="popup"  onclick="togglePopup1()">
+                <p class="mozi-css">▸News
+                    <span class="imgPopup" id="imgPopup1">
+                        <a>テキスト</a>
+                    </span>
+                </p>
+            </div>
     
+
             <p class="mozi-css" onclick="myfunc2()">▸Profile</p>
 
             <p class="mozi-css" onclick="myfunc3()">▸People</p>
@@ -43,6 +49,24 @@
             <p class="mozi-css" onclick="myfunc4()">▸Music</p>
 
             <p class="mozi-css" onclick="myfunc5()">▸Blog</p>
+
+
+
+
+
+            
+            <p>
+                <a id="PopupLink1" href="javascript:OnLinkClick();">
+                    Popup表示
+                </a>
+            </p>
+
+            <div id="PopupFrame1" class="PopupFrame">
+                ポップアップ枠です。
+                <a href="javascript:OnCloseLinkClick();">
+                    ×
+                </a>
+            </div>
 
 
 
@@ -70,7 +94,7 @@
         <div class="contentB">
 
             <div class="bgm-css">
-                <audio autoplay controls loop>
+                <audio  controls loop>           <!-- サイト開くと自動でbgm流す様にするには　autoplay　追加する<audio autoplay controls loop> <source src="bgm/Azarea.mp3"></audio> -->
                     <source src="bgm/Azarea.mp3">
                 </audio>
             </div>
