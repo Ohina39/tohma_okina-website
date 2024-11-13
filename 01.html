@@ -7,10 +7,6 @@
     <link rel="stylesheet" href="main3.css">
     <script type="text/javascript" src='./main.js' defer></script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-
 
     <title>初めてのHTMLページ</title>
 </head>
@@ -27,52 +23,83 @@
                 <!-- アザレアの心臓<br> -->
             </h1> 
 
-            
-            <a data-fancybox data-src="img/gazou4.png"  data-caption="アザレアの心臓 (Full Album)" >
-                <p class="mozi-css" onclick="myfunc()">▸Top</p> 
-            </a>
 
-            
-            <div class="popup"  onclick="togglePopup1()">
-                <p class="mozi-css">▸News
-                    <span class="imgPopup" id="imgPopup1">
-                        <a>テキスト</a>
-                    </span>
-                </p>
-            </div>
-    
-
-            <p class="mozi-css" onclick="myfunc2()">▸Profile</p>
-
-            <p class="mozi-css" onclick="myfunc3()">▸People</p>
-
-            <p class="mozi-css" onclick="myfunc4()">▸Music</p>
-
-            <p class="mozi-css" onclick="myfunc5()">▸Blog</p>
-
-
-
-
-
-            
-            <p>
-                <a id="PopupLink1" href="javascript:OnLinkClick();">
-                    Popup表示
+            <!-- Topのポップアップ表示 -->
+            <p class="PopupLink_hover">
+                <a id="PopupLink1" class="PopupLink" href="javascript:OnLinkClick1();" >
+                    ▸Top
                 </a>
             </p>
 
             <div id="PopupFrame1" class="PopupFrame">
-                ポップアップ枠です。
-                <a href="javascript:OnCloseLinkClick();">
-                    ×
+                ポップアップ枠です。1
+            </div>
+
+
+            <!-- Newsのポップアップ表示 -->
+            <p class="PopupLink_hover">
+                <a id="PopupLink2" class="PopupLink" href="javascript:OnLinkClick2();" >
+                    ▸News
                 </a>
+            </p>
+
+            <div id="PopupFrame2" class="PopupFrame">
+                ポップアップ枠です。2
+            </div>
+
+
+            <!-- Profileのポップアップ表示 -->
+            <p class="PopupLink_hover">
+                <a id="PopupLink3" class="PopupLink" href="javascript:OnLinkClick3();" >
+                    ▸Profile
+                </a>
+            </p>
+
+            <div id="PopupFrame3" class="PopupFrame">
+                ポップアップ枠です。3
+            </div>
+
+
+            <!-- Profileのポップアップ表示 -->
+            <p class="PopupLink_hover">
+                <a id="PopupLink4" class="PopupLink" href="javascript:OnLinkClick4();" >
+                    ▸People
+                </a>
+            </p>
+
+            <div id="PopupFrame4" class="PopupFrame">
+                ポップアップ枠です。4
             </div>
 
 
 
-            <div id="canvas"></div>
-            <button onclick="drawCanvas()">購入する</button>
-            <br>
+            <!-- Musicのポップアップ表示 -->
+            <p class="PopupLink_hover">
+                <a id="PopupLink5" class="PopupLink" href="javascript:OnLinkClick5();" >
+                    ▸Music
+                </a>
+            </p>
+
+            <div id="PopupFrame5" class="PopupFrame">
+                ポップアップ枠です。5
+            </div>
+
+
+
+            <!-- Musicのポップアップ表示 -->
+            <p class="PopupLink_hover">
+                <a id="PopupLink6" class="PopupLink" href="javascript:OnLinkClick6();" >
+                    ▸Blog
+                </a>
+            </p>
+
+            <div id="PopupFrame6" class="PopupFrame">
+                ポップアップ枠です。6
+            </div>
+
+
+
+
 
             <a href="https://www.youtube.com/watch?v=Oh9E4Gumk60&t=434s">トーマ - アザレアの心臓</a>
             <br>

@@ -15,7 +15,7 @@
 }
 
 .mozi-css:hover{
-    /*color: rgb(221, 221, 159);*/
+    color: rgb(221, 221, 159);
     transition: all 0.1s;
     transform: translate(3px,0);
 }
@@ -37,35 +37,32 @@
 
 
 
-
 /*ポップアップ*/
 .PopupFrame{
     width: 70%;
     height:90%;
     background-color:#a0d3f7;
+    color:#ffffff;
     position:absolute;
     visibility:hidden;
   }
 
-
-  .popup {
-    position: absolute;
-    display: inline-block;
-  }
-  
-  .imgPopup {
-    display: none;
-    width: 1400px;
-    height:100px;
-    cursor: auto;
-
-    background-color: #ffffff;
-    border: none;
-    z-index: 1;
-    position: absolute;
+.PopupLink{
+    color:#ffffff;
+    text-decoration: none;
+    font-family: "Times New Roman";
   }
 
-  
+.PopupLink_hover:hover{
+    /*color: rgb(221, 221, 159);*/
+    transition: all 0.1s;
+    transform: translate(3px,0);
+}
+
+/*.PopupLink_hover:active{
+    text-decoration: none;
+
+}*/
 
 
 
