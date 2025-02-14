@@ -1,11 +1,4 @@
 
-const myfunc1 = () => {
-
-    console.log("a");
-}
-
-
-
 function OnLinkClick1() {
     var Popup1 = document.getElementById("PopupFrame1");
     var Top_mozi = document.getElementById("PopupLink1");
